@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataGenerator", "DataGenerator\DataGenerator.csproj", "{12017B64-7B10-4E22-AF8C-27F68777538D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XREF_GUI", "XREF_GUI\XREF_GUI.csproj", "{10AFBCD2-4255-4761-BFB7-1F1947D5FA98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POS", "POS\POS.csproj", "{94245ACB-D941-4491-AD5C-070F826FD754}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12017B64-7B10-4E22-AF8C-27F68777538D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12017B64-7B10-4E22-AF8C-27F68777538D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12017B64-7B10-4E22-AF8C-27F68777538D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12017B64-7B10-4E22-AF8C-27F68777538D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10AFBCD2-4255-4761-BFB7-1F1947D5FA98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10AFBCD2-4255-4761-BFB7-1F1947D5FA98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10AFBCD2-4255-4761-BFB7-1F1947D5FA98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10AFBCD2-4255-4761-BFB7-1F1947D5FA98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94245ACB-D941-4491-AD5C-070F826FD754}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94245ACB-D941-4491-AD5C-070F826FD754}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94245ACB-D941-4491-AD5C-070F826FD754}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94245ACB-D941-4491-AD5C-070F826FD754}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8BED4A5F-2C71-4ADA-B22E-8877505DED7C}
+	EndGlobalSection
+EndGlobal
