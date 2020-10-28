@@ -22,6 +22,20 @@ namespace DataGenerator
             {
                 Console.WriteLine("{0}\t{1}\t{2}", prod.upc, prod.manufacturer, prod.description);
             }
+
+            /*
+            List<Product> q = Product.MakeProducts(20);
+            foreach (Product prod in p)
+            {
+                int index = q.FindIndex(f => f.cost == prod.cost);
+                if (index >= 0)
+                {
+                    Console.WriteLine("List 1: {0}\tList 2: {1}", p.IndexOf(prod), index);
+                }
+            }
+   
+                Saw a question on list intersection on SO and wanted to try this.
+            */
         }
     }
 }
