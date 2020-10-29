@@ -23,6 +23,13 @@ namespace DataGenerator
                 Console.WriteLine("{0}\t{1}\t{2}", prod.upc, prod.manufacturer, prod.description);
             }
 
+            List<Employee> e = Employee.MakeList(20, 1798);
+
+            foreach(Employee emp in e)
+            {
+                Console.WriteLine(emp.ToCSV());
+            }
+
             /*
             List<Product> q = Product.MakeProducts(20);
             foreach (Product prod in p)
